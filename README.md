@@ -1,4 +1,4 @@
-[bcc-docker](https://hub.docker.com/r/zlim/bcc/) is provided for user to try out [bcc](https://github.com/iovisor/bcc).
+[bcc-docker](https://hub.docker.com/r/polym/bcc/) is provided for user to try out [bcc](https://github.com/iovisor/bcc).
 
 From your host shell:
 ```bash
@@ -8,7 +8,7 @@ docker run -it --rm \
   -v /usr/src:/usr/src:ro \
   -v /etc/localtime:/etc/localtime:ro \
   --workdir /usr/share/bcc/tools \
-  zlim/bcc
+  polym/bcc
 ```
 
 Now, from the container shell, you can try the various pre-installed bcc tools.
